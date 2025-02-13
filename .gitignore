@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+.env
+
+# Arduino
+app/bin/
+app/pde.jar
+build/
+arduino-core/bin/
+arduino-core/arduino-core.jar
+hardware/arduino/bootloaders/caterina_LUFA/Descriptors.o
+hardware/arduino/bootloaders/caterina_LUFA/Descriptors.lst
+hardware/arduino/bootloaders/caterina_LUFA/Caterina.sym
+hardware/arduino/bootloaders/caterina_LUFA/Caterina.o
+hardware/arduino/bootloaders/caterina_LUFA/Caterina.map
+hardware/arduino/bootloaders/caterina_LUFA/Caterina.lst
+hardware/arduino/bootloaders/caterina_LUFA/Caterina.lss
+hardware/arduino/bootloaders/caterina_LUFA/Caterina.elf
+hardware/arduino/bootloaders/caterina_LUFA/Caterina.eep
+hardware/arduino/bootloaders/caterina_LUFA/.dep/
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+*.log
+temp/
+output/
+config.ini 
